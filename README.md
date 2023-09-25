@@ -26,9 +26,17 @@ Before using SiteBlaster, make sure you have the following prerequisites install
 
 ```bash
 cd SiteBlaster
+```
+## 2. Edit the script (site_blaster.py) to configure the payload data as needed:
 
-## Edit the script (site_blaster.py) to configure the payload data as needed:
+- Modify the **`education_words`** list to include keywords relevant to your testing.
+- Customize the **`menu_options`** list with options specific to the website you're testing.
+- Adjust the **`url`** variable to point to the target website's contact form.
 
-- Modify the education_words list to include keywords relevant to your testing.
-- Customize the menu_options list with options specific to the website you're testing.
-- Adjust the url variable to point to the target website's contact form.
+## 3. Run the script to send payloads:
+
+```bash
+python site_blaster.py
+```
+- Monitor the script's progress as it sends payloads to the specified URL.
+## 4. 
