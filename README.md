@@ -39,4 +39,14 @@ cd SiteBlaster
 python site_blaster.py
 ```
 - Monitor the script's progress as it sends payloads to the specified URL.
-## 4. 
+## Customization
+- You can customize the payload data in the **`send_post_request function`** to match the expected fields of the contact form on the target website.
+- Adjust the **`num_requests`** variable to specify the number of requests you want to send.
+
+## Responsoble Use
+
+Please use SiteBlaster responsibly and in accordance with ethical guidelines. Ensure that you have proper authorization to test the website's contact form. Unauthorized and excessive use of this tool may result in legal consequences.
+
+## Disclaimer
+
+This tool is provided for educational and testing purposes only. The developers and maintainers of SiteBlaster are not responsible for any misuse or unlawful activity conducted with this tool. Use it at your own discretion.
