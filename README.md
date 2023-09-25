@@ -22,3 +22,13 @@ Before using SiteBlaster, make sure you have the following prerequisites install
 
    ```bash
    git clone https://github.com/yourusername/SiteBlaster.git
+## 1. Navigate to the project directory:
+
+```bash
+cd SiteBlaster
+
+## Edit the script (site_blaster.py) to configure the payload data as needed:
+
+- Modify the education_words list to include keywords relevant to your testing.
+- Customize the menu_options list with options specific to the website you're testing.
+- Adjust the url variable to point to the target website's contact form.
